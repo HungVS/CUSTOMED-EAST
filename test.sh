@@ -1,1 +1,2 @@
-python eval.py --test_data_path=/home/hungvs/FPT/table_recognition/solutions/deep_learning/table-transformer/src/testset/images --gpu_list=0 --checkpoint_path=/home/hungvs/FPT/table_recognition/solutions/deep_learning/EAST/pretrained/east_icdar2015_resnet_v1_50_rbox --output_dir=/home/hungvs/FPT/table_recognition/solutions/deep_learning/table-transformer/src/testset/raw_words
+python reset_east_dir.py
+python eval.py --test_data_path=/home/hungvs/FPT/table_recognition/solutions/deep_learning/table-transformer/src/testset/images --gpu_list=0 --checkpoint_path=/home/hungvs/FPT/table_recognition/solutions/deep_learning/EAST/pretrained/east_icdar2015_resnet_v1_50_rbox --output_dir=/home/hungvs/FPT/table_recognition/solutions/deep_learning/table-transformer/src/testset/east
